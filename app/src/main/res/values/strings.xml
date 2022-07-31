@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Eventos Ulima</string>
+    <string-array name="cant_butacas">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string name="sala_ventana_indiscreta">SALA VENTANA INDISCRETA</string>
+    <string name="todo">TODO</string>
+    <string name="bruno_andre_chirinos_molina">Bruno Andre Chirinos Molina</string>
+    <string name="jean_pierre_soto_tipacti">Jean Pierre Soto Tipacti</string>
+    <string name="leonardo_guillermo_falcon_choque">Leonardo Guillermo Falcon Choque</string>
+    <string name="regresar">REGRESAR</string>
+    <string name="todo1">TODO</string>
+    <string name="todo2">TODO</string>
+    <string name="textview">TextView</string>
+    <string name="button">Button</string>
+    <string name="todo3">TODO</string>
+    <string name="todo4">TODO</string>
+    <string name="todo5">TODO</string>
+    <string name="su_reservaci_n_ha_sido_confirmada">SU RESERVACIÓN HA SIDO CONFIRMADA</string>
+    <string name="confirmar">CONFIRMAR</string>
+
+    <string name="adMobID">ca-app-pub-3940256099942544~6300978111</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="global_padding">20dp</string>
+
+    <string name="main_title">¡Hola Usuario!</string>
+    <string name="main_movies">Películas en Exhibición:</string>
+    <string name="main_events">Otros Eventos en Exhibición:</string>
+
+    <string name="config_user">Usuario</string>
+    <string name="config_close">Cerrar Sesión</string>
+    <string name="config_edit">Editar información personal</string>
+    <string name="config_pass">Cambiar contraseña</string>
+    <string name="config_notif">Configuración de Notificaciones</string>
+
+    <string name="edit_title">Editar información personal</string>
+    <string name="edit_lastName">Apellidos:</string>
+    <string name="edit_firstName">Nombres:</string>
+    <string name="edit_gender">Sexo:</string>
+    <string name="edit_gender_1">Hombre</string>
+    <string name="edit_gender_2">Mujer</string>
+    <string name="edit_gender_3">Otro</string>
+    <string name="edit_birth">Edad:</string>
+    <string name="edit_idStudent">Código de Alumno:</string>
+
+    <string name="pass_title">Cambiar Contraseña</string>
+    <string name="pass_newPassword">Nueva Contraseña:</string>
+    <string name="pass_conPassword">Confirmar Contraseña:</string>
+    <string name="pass_msg_noMatch">Las contraseñas no coinciden</string>
+
+    <string name="notif_title">Configuración de Notificaciones</string>
+    <string name="notif_enable">Activar Notificaciones</string>
+    <string name="notif_section">Deseo recibir notificaciones de:</string>
+    <string name="notif_concert">Conciertos</string>
+    <string name="notif_events">Eventos Académicos</string>
+    <string name="notif_movies">Películas</string>
+    <string name="notif_theatre">Obras de Teatro</string>
+    
+    <string name="foto_title">Actualizar Foto</string>
+    <string name="foto_take">Tomar una foto</string>
+    <string name="foto_take_alt">Volver a tomar una foto</string>
+    <string name="foto_file">Cargar una imagen del teléfono</string>
+    <string name="foto_file_alt">Cargar otra imagen del teléfono</string>
+
+    <string name="butGlobal_cancel">Cancelar</string>
+    <string name="butGlobal_continue">Continuar</string>
+
+</resources>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/butRegresarNosotros"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#613E13"
+        android:text="REGRESAR"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.528"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:autoText="false"
+        android:background="#613E13"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="Conoce a los desarrolladores"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="401dp"
+        android:layout_height="549dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/butRegresarNosotros"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView26">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="113dp"
+            android:layout_height="101dp"
+            android:layout_marginBottom="8dp"
+            android:contentDescription="@string/todo3"
+            fresco:layout_constraintBottom_toTopOf="@+id/datosBachmaster"
+            fresco:layout_constraintEnd_toEndOf="parent"
+            fresco:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints,ImageContrastCheck"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/datosBachmaster"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:padding="4dp"
+            android:text="@string/bruno_andre_chirinos_molina"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            fresco:layout_constraintBottom_toTopOf="@+id/imageView4"
+            fresco:layout_constraintEnd_toEndOf="parent"
+            fresco:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="103dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="8dp"
+            android:contentDescription="@string/todo4"
+            fresco:layout_constraintBottom_toTopOf="@+id/datosArnodorian020"
+            fresco:layout_constraintEnd_toEndOf="parent"
+            fresco:layout_constraintStart_toStartOf="parent"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/datosArnodorian020"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:padding="4dp"
+            android:text="@string/jean_pierre_soto_tipacti"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            fresco:layout_constraintBottom_toTopOf="@+id/imageView3"
+            fresco:layout_constraintEnd_toEndOf="parent"
+            fresco:layout_constraintHorizontal_bias="0.0"
+            fresco:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="109dp"
+            android:layout_height="106dp"
+            android:layout_marginBottom="8dp"
+            android:contentDescription="@string/todo5"
+            fresco:layout_constraintBottom_toTopOf="@+id/datosDogeFox071101"
+            fresco:layout_constraintEnd_toEndOf="parent"
+            fresco:layout_constraintStart_toStartOf="parent"
+            tools:ignore="ImageContrastCheck"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/datosDogeFox071101"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:text="@string/leonardo_guillermo_falcon_choque"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            fresco:layout_constraintBottom_toTopOf="@+id/butRegresarNosotros"
+            fresco:layout_constraintEnd_toEndOf="parent"
+            fresco:layout_constraintStart_toStartOf="parent" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

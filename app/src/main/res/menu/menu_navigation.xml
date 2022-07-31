@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item android:checkable="true" android:id="@+id/menInicio" android:title="Inicio"/>
+        <item android:id="@+id/menCartelera" android:title="Cartelera"/>
+        <item android:id="@+id/menOtrosEventos" android:title="Otros Eventos"/>
+        <item android:id="@+id/menReservas" android:title="Mis Reservas"/>
+        <item android:id="@+id/menSobreNosotros" android:title="Sobre Nosotros"/>
+        <item android:id="@+id/menCerrarSesion" android:title="Cerrar Sesion"/>
+    </group>
+</menu>

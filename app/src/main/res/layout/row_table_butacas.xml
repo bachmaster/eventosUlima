@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_margin="8dp"
+        android:layout_weight="1"
+        android:background="#A1AF3939"
+        android:backgroundTint="#7E0707"
+        android:hapticFeedbackEnabled="false"
+        android:scaleType="centerCrop"
+        android:src="@drawable/butaca_imagen" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_margin="8dp"
+        android:layout_weight="1"
+        android:background="#43FFFFFF"
+        android:scaleType="centerCrop"
+        android:src="@drawable/butaca_imagen" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_margin="8dp"
+        android:layout_weight="1"
+        android:background="#43FFFFFF"
+        android:scaleType="centerCrop"
+        android:src="@drawable/butaca_imagen" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_margin="8dp"
+        android:layout_weight="1"
+        android:background="#43FFFFFF"
+        android:scaleType="centerCrop"
+        android:src="@drawable/butaca_imagen" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_margin="8dp"
+        android:layout_weight="1"
+        android:background="#43FFFFFF"
+        android:scaleType="centerCrop"
+        android:src="@drawable/butaca_imagen" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_margin="8dp"
+        android:layout_weight="1"
+        android:background="#43FFFFFF"
+        android:scaleType="centerCrop"
+        android:src="@drawable/butaca_imagen" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_margin="8dp"
+        android:layout_weight="1"
+        android:background="#43FFFFFF"
+        android:scaleType="centerCrop"
+        android:src="@drawable/butaca_imagen" />
+
+</TableRow>

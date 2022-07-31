@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_config_horizontal">12dp</dimen>
+    <dimen name="margin_config_box">24dp</dimen>
+
+    <dimen name="measures_config">25dp</dimen>
+    <dimen name="measures_photo">55dp</dimen>
+    <dimen name="measures_takenPhoto">300dp</dimen>
+    
+    <dimen name="text_config">25sp</dimen>
+    <dimen name="text_normal">14sp</dimen>
+</resources>
